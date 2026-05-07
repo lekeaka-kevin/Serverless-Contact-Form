@@ -57,5 +57,5 @@ All services used are within AWS Free Tier limits:
 - Add email reply-to field
 
 ## Connect with Me
-- [LinkedIn](https://linkedin.com/in/kevin-lekeaka)
+- [LinkedIn](https://www.linkedin.com/in/kevin-lekeaka-644641386/)
 - [Email](mailto:lekeakakevin@gmail.com)
