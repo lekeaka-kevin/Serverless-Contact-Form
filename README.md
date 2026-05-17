@@ -4,11 +4,11 @@
 [My Resume Website](https://d3gpt5n0a684vu.cloudfront.net)
 
 ## Architecture
-- **S3 + CloudFront** – Hosts the static resume website with HTTPS
-- **API Gateway** – REST API endpoint that receives form submissions
-- **Lambda (Python)** – Processes submissions, validates data, saves to database, sends email
-- **DynamoDB** – Stores all contact form entries
-- **SES** – Sends email notification when someone submits the form
+- **S3 + CloudFront**: Hosts the static resume website with HTTPS
+- **API Gateway**: REST API endpoint that receives form submissions
+- **Lambda (Python)**: Processes submissions, validates data, saves to database, sends email
+- **DynamoDB**: Stores all contact form entries
+- **SES**: Sends email notification when someone submits the form
 
 ## How It Works
 1. User visits my resume website and fills out the contact form
@@ -19,10 +19,10 @@
 6. User sees a success message on the website
 
 ## Key Features
-- Fully serverless – no servers to manage
-- Auto-scaling – handles any number of requests
-- Cost-effective – runs entirely on AWS Free Tier
-- Secure – HTTPS with CloudFront, least-privilege IAM roles
+- Fully serverless: no servers to manage
+- Auto-scaling: handles any number of requests
+- Cost-effective: runs entirely on AWS Free Tier
+- Secure: HTTPS with CloudFront, least-privilege IAM roles
 
 ## AWS Services Used
 | Service | Purpose |
@@ -43,13 +43,6 @@ All services used are within AWS Free Tier limits:
 - SES: 62,000 emails/month
 
 **Monthly cost for personal use: $0**
-
-## My Learnings
-- Serverless architecture eliminates server management
-- REST API with Lambda proxy integration simplifies CORS
-- NoSQL data modeling with DynamoDB
-- Email integration with SES
-- Frontend-backend integration with JavaScript fetch API
 
 ## Future Improvements
 - Add reCAPTCHA to prevent spam
